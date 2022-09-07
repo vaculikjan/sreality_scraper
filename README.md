@@ -11,3 +11,4 @@ Paste to terminal:
 ```
 docker compose up
 ```
+Wait until the images compose and scraping is completed. If everything runs correctly you should see a prompt on what addressess to connect to the website.
