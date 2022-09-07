@@ -1,6 +1,6 @@
 # Sreality Scraper
 
-This program scrapes the site sreality.cz using the Scrapyt framework for the first 500 flats and displays them on a separate website on the url.
+This program scrapes the site sreality.cz using the Scrapy framework for the first 500 flats and displays them on a separate website on the url.
 
 ## Requirements:
 - Newest Docker installation
