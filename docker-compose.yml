@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   db:
+    hostname: postgres
     image: postgres
     restart: always
     environment:
@@ -11,6 +12,5 @@ services:
       - "5432:5432"
   scraper:
     build: .
-    network_mode: "host"
     ports:
       - "8080:8080"

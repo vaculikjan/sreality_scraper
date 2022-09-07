@@ -45,7 +45,7 @@ df_reality = df_reality.drop("images", axis=1)
 
 # save dataframe to postgres database
 engine = sqlalchemy.create_engine(
-    "postgresql://postgres:password@localhost:5432/sreality_db"
+    "postgresql://postgres:password@postgres:5432/sreality_db"
 )
 
 if not database_exists(engine.url):
