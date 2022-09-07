@@ -1,0 +1,14 @@
+<h1>Sreality scrape</h1>
+{% block content %}
+<div>
+    {% for flat in flats %}
+    <p>
+        <h2>{{ flat[1] }}</h2>
+        <h3>{{ flat[2] }}</h3>
+    </p>
+    <img src={{flat[3]}} >
+    <img src={{flat[4]}} >
+    <img src={{flat[5]}} >
+    {% endfor %}
+</div>
+{% endblock %}
